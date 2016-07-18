@@ -7,16 +7,16 @@
 // By considering the terms in the Fibonacci sequence whose values
 // do not exceed four million, find the sum of the even-valued terms.
 
-package problem2
+package main
 
-import (
-	"fmt"
-)
+// import (
+// 	"fmt"
+// )
 
-func main() {
-	fmt.Printf("Sum of even fib terms is %d\n", EvenFibSum(35))
-	fmt.Printf("Sum of even fib terms is %d\n", EvenFibSum(4000000))
-}
+// func main() {
+// 	fmt.Printf("Sum of even fib terms is %d\n", EvenFibSum(35))
+// 	fmt.Printf("Sum of even fib terms is %d\n", EvenFibSum(4000000))
+// }
 
 func EvenFibSum(maxVal int) int {
 	sum := 0
